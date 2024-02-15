@@ -9,7 +9,6 @@ class Home {
 
     res.json(response)
   }
-
   async create(req, res) {
     const userRepository = new UserRepository(req.dbConnection)
     const { name, email, password } = req.body
