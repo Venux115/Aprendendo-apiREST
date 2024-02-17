@@ -18,13 +18,13 @@ Esta aplicação é uma simples api com get, post, put e delete que se conecta c
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Features](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-   * [Tecnologias](#tecnologias)
-   * [Autor](#autor)
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#Tabela-de-conteúdos)
+   * [Features](#Features)
+   * [Como usar](#Como-usar)
+      * [Pre Requisitos](#Pré-requisitos)
+   * [Tecnologias](#Tecnologias)
+   * [Autor](#Autor)
 <!--te-->
 
 
