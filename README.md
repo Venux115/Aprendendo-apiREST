@@ -42,8 +42,8 @@ Tabela de conteúdos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Docker](https://www.docker.com/products/docker-desktop/) e [Docker Compose](https://docs.docker.com/compose/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-### 🎲 Rodando o Back End (servidor)
 
+#Rodando o projeto
 ```bash
 # Clone este repositório
 $ git clone <https://github.com/Venux115/Aprendendo-apiREST>
