@@ -22,7 +22,8 @@ Tabela de conteúdos
    * [Tabela de Conteudo](#Tabela-de-conteúdos)
    * [Features](#Features)
    * [Como usar](#Como-usar)
-      * [Pre Requisitos](#Pré-requisitos)
+      * [Pré-requisitos](#Pré-requisitos)
+      * [Rodando o Projéto](#Rodando-o-projeto)
    * [Tecnologias](#Tecnologias)
    * [Autor](#Autor)
 <!--te-->
@@ -43,7 +44,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Docker](https://www.docker.com/products/docker-desktop/) e [Docker Compose](https://docs.docker.com/compose/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-#Rodando o projeto
+### Rodando o projeto
 ```bash
 # Clone este repositório
 $ git clone <https://github.com/Venux115/Aprendendo-apiREST>
