@@ -1,5 +1,0 @@
-{
-  "excMap":{
-    "js": "node -r sucrase/register"
-  }
-}

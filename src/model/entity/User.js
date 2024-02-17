@@ -1,56 +1,53 @@
-export default class User {
-  #id;
-  #name;
-  #email;
-  #password;
-
-  constructor(name, email, password, id = null) {
-    this.#name = name;
-    this.#email = email;
-    this.#password = password;
-    this.#id = id;
+class User {
+  constructor(name, email, password, id) {
+    this._name = name;
+    this._email = email;
+    this._password = password;
+    this._id = id;
   }
 
   getAll() {
     return {
-      id: this.#id,
-      name: this.#name,
-      email: this.#email,
-      password: this.#password
-    }
+      id: this._id,
+      name: this._name,
+      email: this._email,
+      password: this._password,
+    };
   }
 
   // Getters
   get id() {
-    return this.#id;
+    return this._id;
   }
 
   get name() {
-    return this.#name;
+    return this._name;
   }
 
   get email() {
-    return this.#email;
+    return this._email;
   }
 
   get password() {
-    return this.#password;
+    return this._password;
   }
 
   // Setters
   setId(id) {
-    this.#id = id;
+    this._id = id;
   }
 
   setName(name) {
-    this.#name = name;
+    this._name = name;
   }
 
   setEmail(email) {
-    this.#email = email;
+    this._email = email;
   }
 
   setPassword(password) {
-    this.#password = password;
+    this._password = password;
   }
 }
+
+module.exports = User;

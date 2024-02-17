@@ -1,4 +1,4 @@
-import Connection from '../database/Connection.js';
+const Connection = require('../database/Connection.js');
 
 const connectionMiddleware = async (req, res, next) => {
   try {
@@ -12,4 +12,4 @@ const connectionMiddleware = async (req, res, next) => {
   }
 };
 
-export default connectionMiddleware;
+module.exports = connectionMiddleware;

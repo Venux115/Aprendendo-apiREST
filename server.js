@@ -1,8 +1,9 @@
-import app from "./app.js"
-import dotenv from "dotenv";
-dotenv.config()
-const port = process.env.PORT
+const app = require("./app.js");
+const dotenv = require("dotenv");
+dotenv.config();
 
-app.listen(port, ()=>{
-  console.log(`App rodando na porta http://localhost:${port}` )
-})
+const port = process.env.PORT;
+
+app.listen(port, () => {
+  console.log(`App rodando na porta http://localhost:${port}`);
+});
